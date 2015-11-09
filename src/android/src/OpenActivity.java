@@ -6,7 +6,7 @@ import org.json.JSONException;
 import android.content.Context;
 import android.content.Intent;
 
-public class openActivity extends CordovaPlugin{
+public class OpenActivity extends CordovaPlugin{
 
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         Context context=this.cordova.getActivity().getApplicationContext();

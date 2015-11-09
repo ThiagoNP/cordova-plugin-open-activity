@@ -20,11 +20,11 @@
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="Hello">
-        <param name="android-package" value="com.example.sample.Hello"/>
+      <feature name="OpenActivity">
+        <param name="android-package" value="com.modinify.openactivity.OpenActivity"/>
       </feature>
     </config-file>
-	<source-file src="src/android/src/com/modinify/opencativity/OpenActivity.java" target-dir="src/com/modinify/opencativity/"/>
+	<source-file src="src/android/src/OpenActivity.java" target-dir="src/com/modinify/opencativity/"/>
   </platform>
 
 </plugin>
