@@ -24,7 +24,7 @@
         <param name="android-package" value="com.example.sample.Hello"/>
       </feature>
     </config-file>
-	<source-file src="src/android/src/com/modinify/opencativity/openActivity.java" target-dir="src/com/modinify/opencativity/"/>
+	<source-file src="src/android/src/com/modinify/opencativity/OpenActivity.java" target-dir="src/com/modinify/opencativity/"/>
   </platform>
 
 </plugin>

@@ -10,7 +10,7 @@ cordova.define("com.modinify.openactivity", function(require, exports, module) {
     };
 
     OpenActivity.open = function(name) {
-        exec(null, null, "openActivity", name, []);
+        exec(null, null, "OpenActivity", name, []);
     };
 
     module.exports = OpenActivity;
