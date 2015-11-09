@@ -1,6 +1,6 @@
 /*global cordova, module*/
 
-cordova.define("com.modinify.openactivity", function(require, exports, module) {
+cordova.define("cordova-plugin-open-activity.OpenActivity", function(require, exports, module) {
     var argscheck = require('cordova/argscheck'),
         utils = require('cordova/utils'),
         exec = require('cordova/exec'),
