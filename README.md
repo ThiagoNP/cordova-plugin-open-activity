@@ -2,6 +2,12 @@
 
 It helps open a native Activity in Android environment from cordova/hybrid APPs
 
+## Installation
+
+cordova plugin add https://github.com/ModinifyTechnologies/cordova-plugin-open-activity.git
+
+### Examples
+
 Call from your app:
 
 ```js
