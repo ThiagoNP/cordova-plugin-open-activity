@@ -1,15 +1,11 @@
-/*global cordova, module*/
+var exec = require('cordova/exec');
 
-cordova.define("cordova-plugin-open-activity.OpenActivity", function(require, exports, module) {
-    var exec = require('cordova/exec');
+var OpenActivity = function() {
+};
 
-    var OpenActivity = function() {
-    };
+OpenActivity.open = function(name) {
+    exec(null, null, "OpenActivity", name, []);
+};
 
-    OpenActivity.open = function(name) {
-        exec(null, null, "OpenActivity", name, []);
-    };
-
-    module.exports = OpenActivity;
-});
+module.exports = OpenActivity;
 
