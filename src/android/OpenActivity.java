@@ -8,9 +8,16 @@ import android.content.Intent;
 
 public class OpenActivity extends CordovaPlugin{
 
+    private static CallbackContext _callbackContext;
+
+    public static CallbackContext getCallbackContext(){
+        return _callbackContext;
+    }
+
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         Context context=this.cordova.getActivity().getApplicationContext();
         boolean isOk = false;
+        _callbackContext = callbackContext;
 
         try{
             Class<?> c = Class.forName(action);
