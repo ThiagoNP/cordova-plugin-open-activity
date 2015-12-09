@@ -1,10 +1,7 @@
 /*global cordova, module*/
 
 cordova.define("cordova-plugin-open-activity.OpenActivity", function(require, exports, module) {
-    var argscheck = require('cordova/argscheck'),
-        utils = require('cordova/utils'),
-        exec = require('cordova/exec'),
-        channel = require('cordova/channel');
+    var exec = require('cordova/exec');
 
     var OpenActivity = function() {
     };
