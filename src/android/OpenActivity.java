@@ -25,6 +25,7 @@ public class OpenActivity extends CordovaPlugin{
             cordova.getActivity().startActivity(intent);
             isOk = true;
         }catch(Exception e){
+            callbackContext.error(e.getMessage());
             // DO nothing for while...
         }
 
