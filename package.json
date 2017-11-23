@@ -1,0 +1,32 @@
+{
+  "name": "OpenActivity",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-open-activity",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoNP/cordova-plugin-open-activity.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Modnify",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoNP/cordova-plugin-open-activity/issues"
+  },
+  "homepage": "https://github.com/ThiagoNP/cordova-plugin-open-activity#readme"
+}
